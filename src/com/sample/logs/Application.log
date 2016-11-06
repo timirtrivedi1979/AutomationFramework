@@ -1,0 +1,19 @@
+06/11/2016 17:44:17 devpinoyLogger Properties loaded. Starting testing
+06/11/2016 17:44:17 devpinoyLogger Intialize Suite xlsx
+06/11/2016 17:44:17 devpinoyLogger UserLogin -- N
+06/11/2016 17:44:17 devpinoyLogger Select Organisation and Year -- N
+06/11/2016 17:44:17 devpinoyLogger Add Entity and Field and Crop -- Y
+06/11/2016 17:44:17 devpinoyLogger ******Loading the OR file for ******Add Entity and Field and Crop
+06/11/2016 17:44:17 devpinoyLogger ******Executing the Suite******Add Entity and Field and Crop
+06/11/2016 17:44:19 devpinoyLogger TC_SNT_01 -- Y
+06/11/2016 17:44:19 devpinoyLogger Executing the test case -> TC_SNT_01
+06/11/2016 17:44:19 devpinoyLogger Iteration number 1
+06/11/2016 17:44:19 devpinoyLogger openBrowser
+06/11/2016 17:44:19 devpinoyLogger Opening browser
+06/11/2016 17:44:28 devpinoyLogger PASS
+06/11/2016 17:44:28 devpinoyLogger navigate
+06/11/2016 17:44:28 devpinoyLogger Navigating to URL
+06/11/2016 17:44:36 devpinoyLogger PASS
+06/11/2016 17:44:36 devpinoyLogger closeBrowser
+06/11/2016 17:44:36 devpinoyLogger Closing the browser
+06/11/2016 17:44:36 devpinoyLogger FAIL

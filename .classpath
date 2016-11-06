@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/dom4j-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="lib/logging-selenium-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/ORACLE.jar"/>
+	<classpathentry kind="lib" path="lib/soap-xmlbeans-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/soapui-4.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/soapui-pro-4.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/soapui-xmlbeans-4.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-5.0.7-bin.jar"/>
+	<classpathentry kind="lib" path="lib/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.4.5.jar"/>
+	<classpathentry kind="lib" path="lib/json-20160810.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.15.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="lib/saxon-dom-9.1.0.8.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-server-standalone-3.0.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_112"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

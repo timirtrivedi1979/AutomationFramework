@@ -1,0 +1,39 @@
+<project basedir="." name="Test Automation">
+    <property name="src.dir" value="${basedir}/src"/>
+    <property name="classes.dir" value="${basedir}/bin"/>
+    <property name="lib.dir" value="${basedir}/lib"/>
+    <property name="build.dir" value="${basedir}/build"/>
+    <property name="selenium.standalone" value="${lib.dir}/selenium-server-standalone-2.28.0.jar"/>
+    <property name="testautomation.jar" value="${build.dir}/testautomation.jar"/>
+
+    <path id="testautomation.classpath">
+        <file file="${testautomation.jar}"/>
+        <fileset dir="${lib.dir}">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+
+    <target name="build" description="sets up the environment for test execution">
+        <mkdir dir="${classes.dir}"/>
+        <mkdir dir="${build.dir}"/>
+        <javac debug="true"
+              srcdir="${src.dir}"
+              destdir="${classes.dir}"
+              includeAntRuntime="false"
+              classpathref="testautomation.classpath"/>
+        <jar basedir="${classes.dir}" jarfile="${testautomation.jar}"/>
+    </target>
+
+    <target name="launch-selenium">
+        <exec executable="cmd">
+            <arg value="/c"/>            
+            <arg value="java -jar ${selenium.standalone}"/>
+        </exec>
+    </target>
+    
+    <target name="run-tests" description="run command-line example">
+        <java classname="com.vimo.test.${testname}"
+               failonerror="true"
+               classpathref="testautomation.classpath"/>
+    </target>
+</project>

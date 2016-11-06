@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APTTUS Test Automation" verbose="0" parallel="tests">
+	<test name="WebDriver Test on FireFox" >	
+	<parameter name="browser" value="firefox"/>
+	<classes>
+    <class name="com.vimo.test.DriverScript1">
+    </class>
+    </classes>
+    </test>	
+		
+	<test name="WebDriver Test on FireFox1" >	
+	<parameter name="browser" value="firefox"/>
+	<classes>
+    <class name="com.vimo.test.DriverScript1">
+    
+    </class>
+    </classes>
+    </test>	
+		
+		
+	
+</suite>
+	
